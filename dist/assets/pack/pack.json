@@ -1,0 +1,69 @@
+{
+  "section1": {"files": [
+    {
+      "type": "sceneFile",
+      "key": "first",
+      "url": "assets/scenes/first.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "finalgame",
+      "url": "assets/scenes/finalgame.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "game",
+      "url": "assets/scenes/game.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "street",
+      "url": "assets/scenes/street.js"
+    },
+    {
+      "type":"image",
+      "key":"gameBack",
+      "url":"assets/sprites/back-game.png",
+      "normalMap": ""
+    },
+    {
+      "type":"image",
+      "key":"ulicaBack",
+      "url":"assets/sprites/ulica_bg.png",
+      "normalMap": ""
+    },
+    {
+    "type":"image",
+    "key":"player",
+    "url":"assets/sprites/w1.png",
+    "normalMap": ""
+    },
+    {
+    "type":"image",
+    "key":"street-bar",
+    "url":"assets/sprites/bar.png",
+    "normalMap": ""
+    },
+    {
+      "type":"image",
+      "key":"street-ostanovka",
+      "url":"assets/sprites/ostanovka.png",
+      "normalMap": ""
+      },
+    {
+      "type": "multiatlas",
+      "key": "walking-ded",
+      "url": "assets/atlas/walking-ded.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "walking-ded-street",
+      "url": "assets/atlas/walking-ded-street.json",
+      "path": "assets/atlas"
+    }
+  ]},
+  "meta": {
+    "version": "2"
+  }
+}
