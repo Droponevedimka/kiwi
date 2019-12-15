@@ -1,6 +1,7 @@
 import Phaser from 'phaser'
 import './assets/scss/main.scss'
 
+
 class Boot extends Phaser.Scene {
 	
 	constructor() {
@@ -92,7 +93,7 @@ class Boot extends Phaser.Scene {
 
 	
 	create() {	
-		this.scene.start("first");				
+		this.scene.start("game");				
 	}
 
 }
@@ -100,7 +101,7 @@ class Boot extends Phaser.Scene {
  var game = new Phaser.Game({
     "title": "Киви",
     "width": 1600,
-    "height": 900, 
+    "height": 800, 
     "type": Phaser.CANVAS,  		 
     "parent": "game-container",
     "physics": {
@@ -108,8 +109,7 @@ class Boot extends Phaser.Scene {
     },
     "multiTexture" : true , 
     "clearBeforeRender" : false,    
-    "transparent"    : false,
-    "backgroundColor": "#000",
+    "transparent"    : true,
         "scale": {
             "mode": Phaser.Scale.FIT,			
             "autoCenter": Phaser.Scale.CENTER_BOTH        

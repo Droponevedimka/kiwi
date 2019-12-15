@@ -17,6 +17,11 @@
     },
     {
       "type": "sceneFile",
+      "key": "gameScene",
+      "url": "assets/scenes/gameScene.js"
+    },
+    {
+      "type": "sceneFile",
       "key": "street",
       "url": "assets/scenes/street.js"
     },
@@ -46,6 +51,18 @@
     },
     {
       "type":"image",
+      "key":"game-nootebook",
+      "url":"assets/sprites/game-nootebook.png",
+      "normalMap": ""
+      },
+    {
+      "type":"image",
+      "key":"nootebook",
+      "url":"assets/sprites/nootebook.png",
+      "normalMap": ""
+      },
+    {
+      "type":"image",
       "key":"street-ostanovka",
       "url":"assets/sprites/ostanovka.png",
       "normalMap": ""
@@ -60,6 +77,12 @@
       "type": "multiatlas",
       "key": "walking-ded-street",
       "url": "assets/atlas/walking-ded-street.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "barmen",
+      "url": "assets/atlas/barmen.json",
       "path": "assets/atlas"
     }
   ]},
